@@ -1,0 +1,295 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px 0; }
+.d-block-mobile { display: block; }
+.section-heading > h2 { font-size: 3rem; margin-bottom: 30px; }
+p { color: #f7f7f7; font: 1.6rem/1.7 "Gotham-Light"; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Menu Section Starts -------*/
+
+.menu-listing > li { margin-bottom: 15px; }
+.menu-listing > li > a { font-size: 4.5rem; letter-spacing: 2px; }
+
+  /*------- Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { padding: 100px 15px 0; }
+.img-me { height: 270px; margin-bottom: 30px; width: 270px; }
+.banner-info > h1 { font-size: 3rem; }
+.banner-info > h1 > span { display: inline; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Designation Section Starts -------*/
+
+.web-designer > h2,
+.graphic-designer > h2,
+.ui-ux-designer > h2 { font-size: 2.4rem; margin-bottom: 30px; text-align: left; -webkit-transform: none !important; -moz-transform: none !important; -ms-transform: none !important; -o-transform: none !important; transform: none !important; }
+.web-designer > h2 > span,
+.graphic-designer > h2 > span,
+.ui-ux-designer > h2 > span { display: block; }
+.about-info { text-align: left; }
+.about-info > h3 { font-size: 1.6rem; margin-bottom: 20px; }
+.about-info > p { margin-bottom: 15px; text-align: justify; }
+.story-cv-listing > li { margin: 0 0 15px 0; }
+.story-cv-listing > li:last-child { margin: 0; }
+.story-cv-listing > li > a { display: block; font-size: 1.4rem; }
+
+  /*------- Designation Section Ends -------*/
+
+  /*------- Skills Section Starts -------*/
+
+.skills-heading > h3 { font-size: 1.8rem; letter-spacing: 1px; margin-bottom: 20px; }
+.skills-heading > h3 > span { display: inline; }
+.box-skills > h4 { font-size: 1.6rem; }
+
+  /*------- Skills Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.bg-portfolio { padding: 0 15px 0; }
+.portfolio-image-info,
+.portfolio-image,
+.portfolio-image > img { margin-bottom: 15px; }
+.portfolio-info > h3 { font-size: 1.8rem; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-heading > h3 { font-size: 1.8rem; }
+.contact-listing { text-align: center; }
+.contact-listing > li { margin: 0 0 10px 0; padding-right: 0; }
+.contact-listing > li:last-child { margin-bottom: 0; }
+.contact-listing > li::after { display: none; }
+.contact-listing > li > a { font-size: 1.6rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.banner-info-ip > h1 { letter-spacing: 1px; word-break: break-word; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Banner Image Section Starts -------*/
+
+.bg-banner-image-ap { padding: 15px 0 0; }
+
+  /*------- Banner Image Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.about-info-ap > h1 { font-size: 3rem; }
+.fun-facts-heading > h2 { font-size: 2.4rem; }
+.facts-listing > li { font-size: 1.6rem; line-height: 1.4; text-align: justify; }
+.facts-listing > li::before { top: 5px; }
+
+  /*------- Information Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.bg-portfolio-pp { padding: 15px; }
+.basic-info-about-project-heading > h2 { font-size: 3.5rem; }
+.portfolio-listing > li { margin-bottom: 15px; }
+.portfolio-listing > li > span:first-child,
+.portfolio-listing > li > span:last-child { width: 100%; }
+.portfolio-listing > li > span:first-child { display: block; margin-bottom: 5px; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Portfolio Presentation Section Starts -------*/
+
+.figure-image-portfolio > img { margin: 0 auto 30px; }
+
+  /*------- Portfolio Presentation Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- GitHub Repositories Page Starts -------*/
+
+  /*------- GitHub Repositories Section Starts -------*/
+
+.github-repo-listing-grp > li:before { font-size: 1.6rem; top: 3px; }
+.github-repo-listing-grp > li > a { font-size: 1.6rem; text-align: justify; }
+
+  /*------- GitHub Repositories Section Ends -------*/
+
+/*------- GitHub Repositories Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 30px 0; }
+.section-heading > h2 { margin-bottom: 30px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Menu Section Starts -------*/
+
+.menu-listing > li { margin-bottom: 20px; }
+.menu-listing > li > a { font-size: 5rem; }
+.menu-listing > li.active > a,
+.menu-listing > li > a:hover { letter-spacing: 4px; }
+
+  /*------- Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { padding: 100px 30px 0; }
+.img-me { height: 200px; width: 200px; }
+.banner-info > h1 { font-size: 4rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Designation Section Starts -------*/
+
+.web-designer > h2,
+.graphic-designer > h2,
+.ui-ux-designer > h2 { font-size: 3rem; margin-bottom: 30px; }
+.about-info { text-align: left; }
+.about-info > h3 { margin-bottom: 15px; }
+.about-info > p { margin-bottom: 15px; }
+.about-info > p:last-of-type { margin-bottom: 30px; }
+
+  /*------- Designation Section Ends -------*/
+
+  /*------- Skills Section Starts -------*/
+
+.bg-portfolio {  padding: 0 30px; }
+.skills-heading > h3 > span { display: inline; }
+
+  /*------- Skills Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.portfolio-image > img { margin-bottom: 15px; }
+.portfolio-info > h3 { font-size: 1.8rem; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.contact-listing > li > a { font-size: 1.6rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Me Page Starts -------*/
+
+  /*------- Banner Image Section Starts -------*/
+
+.bg-banner-image-ap { padding: 30px 0 0; }
+.banner-info-ip > h1 { font-size: 3rem; }
+
+  /*------- Banner Image Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.fun-facts-heading > h2 { font-size: 2.4rem; }
+
+  /*------- Information Section Ends -------*/
+
+/*------- About Me Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.basic-info-about-project-heading > h2 { font-size: 2.4rem; }
+
+  /*------- Portfolio Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 30px 0; }
+.section-heading > h2 { margin-bottom: 30px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Menu Section Starts -------*/
+
+.menu-listing > li { margin-bottom: 20px; }
+.menu-listing > li > a { font-size: 6rem; }
+.menu-listing > li.active > a,
+.menu-listing > li > a:hover { letter-spacing: 4px; }
+
+  /*------- Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { padding: 100px 30px 0; }
+.img-me { height: 300px; width: 300px; }
+.banner-info > h1 { font-size: 5rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Designation Section Starts -------*/
+
+.web-designer > h2,
+.graphic-designer > h2,
+.ui-ux-designer > h2 { font-size: 3rem; margin-bottom: 30px; }
+.about-info { text-align: left; }
+.about-info > h3 { margin-bottom: 15px; }
+.about-info > p { margin-bottom: 15px; }
+.about-info > p:last-of-type { margin-bottom: 30px; }
+
+  /*------- Designation Section Ends -------*/
+
+  /*------- Skills Section Starts -------*/
+
+.skills-heading > h3 > span { display: inline; }
+
+  /*------- Skills Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.bg-portfolio {  padding: 0 30px; }
+.portfolio-image > img { margin-bottom: 15px; }
+.portfolio-info > h3 { font-size: 1.8rem; }
+
+  /*------- Portfolio Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Me Page Starts -------*/
+
+  /*------- Banner Image Section Starts -------*/
+
+.bg-banner-image-ap { padding: 30px 0 0; }
+.banner-info-ip > h1 { font-size: 3rem; }
+
+  /*------- Banner Image Section Ends -------*/
+
+/*------- About Me Page Ends -------*/
+
+}

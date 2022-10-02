@@ -1,0 +1,260 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Gotham-Light"; src: url("../fonts/Gotham-Light.ttf"); }
+@font-face { font-family: "Gotham-Book"; src: url("../fonts/Gotham-Book.ttf"); }@font-face { font-family: "Gotham-Medium"; src: url("../fonts/Gotham-Medium.ttf"); }
+@font-face { font-family: "Gotham-Bold"; src: url("../fonts/Gotham-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-user-select: none; -ms-user-select: none; user-select: none; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+label,
+address { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body {
+  background-color: #001319;
+  overflow-x: hidden;
+}
+body.active { overflow: hidden; }
+.container-fluid { padding: 50px 100px 0; }
+.d-flex { display: -webkit-flex; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.align-items-center { -webit-align-items: center; align-items: center; }
+.flex-wrap { flex-wrap: wrap; }
+.justify-content-center { justify-content: center; }
+.section-heading > h2 { color: #00b97d; display: inline-block; font: 3rem/1.2 "Gotham-Medium"; margin-bottom: 50px; position: relative; text-transform: uppercase; z-index: 1; }
+.section-heading > h2::after { background-color: rgb(0 185 125 / 10%); bottom: 0; content: ""; display: block; height: 35%; left: 0; position: absolute; width: 100%; z-index: -1; }
+p { color: #f7f7f7; font: 1.8rem/1.7 "Gotham-Light"; }
+.read-more > a { background-color: #00b97d; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #ffffff; display: inline-block; font: 1.6rem/1.2 "Gotham-Light"; letter-spacing: 2px; padding: 10px 25px; text-align: center; }
+.read-more > a:hover { background-color: #ffffff; color: #000000; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Custom Scrollbar Section Starts -------*/
+
+::-webkit-scrollbar { width: 0; }
+
+/*------- Custom Scrollbar Section Ends -------*/
+
+/*------- Scroll Progressbar Section Starts -------*/
+
+.display-progress { background-color: #00b97d; height: 4px; position: fixed; top: 0; z-index: 11; }
+
+/*------- Scroll Progressbar Section Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Hamburger Menu Section Starts -------*/
+
+.hamburger-menu { left: 50%; position: fixed; top: 0; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); z-index: 10; }
+.burger-menu { background-color: #00b97d; cursor: pointer; height: 50px; position: relative; width: 50px; z-index: 10; }
+.burger-menu span { background-color: #ffffff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 25px; z-index: -1; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #ffffff; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; }
+.burger-menu span::before { top: -10px; }
+
+  /*------- Hamburger Menu Section Ends -------*/
+
+  /*------- Menu Section Starts -------*/
+
+.fixed-navbar-menu { background-color: #00b97d; bottom: 0; -webkit-clip-path: circle(100px at 50% -5%); clip-path: circle(100px at 50% -5%); display: block; height: 100%; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s ease 0.3s; -moz-transition: 1s ease 0.3s; -ms-transition: 1s ease 0.3s; -o-transition: 1s ease 0.3s; transition: 1s ease 0.3s; width: 100%; z-index: 9; }
+.fixed-navbar-menu.active { -webkit-clip-path: circle(1000px at 50% -5%); clip-path: circle(1000px at 50% -5%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; }
+.menu-listing { left: 50%; opacity: 0; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; width: 100%; z-index: 10; }
+.menu-listing.active { opacity: 1; top: 50%; -webkit-transition: 1s ease 0.25s; -moz-transition: 1s ease 0.25s; -ms-transition: 1s ease 0.25s; -o-transition: 1s ease 0.25s; transition: 1s ease 0.25s; visibility: visible; }
+.menu-listing > li { display: block; margin-bottom: 30px; }
+.menu-listing > li:last-child { margin-bottom: 0; }
+.menu-listing > li > a { color: transparent; display: block; font: 7rem/1 "Gotham-Bold"; letter-spacing: 2px; text-align: center; -webkit-text-stroke: 1px #ffffff; text-transform: uppercase; }
+.menu-listing > li.active > a,
+.menu-listing > li > a:hover { color: #ffffff; }
+
+  /*------- Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { padding: 100px 100px 0; }
+.img-me { border: 1px solid #00b97d; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-box-shadow: 5px 5px 0px 2px rgb(0 185 125 / 10%); -moz-box-shadow: 5px 5px 0px 2px rgb(0 185 125 / 10%); -ms-box-shadow: 5px 5px 0px 2px rgb(0 185 125 / 10%); -o-box-shadow: 5px 5px 0px 2px rgb(0 185 125 / 10%); box-shadow: 5px 5px 0px 2px rgb(0 185 125 / 10%); height: 350px; margin: 0 auto; object-fit: cover; padding: 10px; width: 350px; }
+.banner-info > h1 { color: #f7f7f7; font: 7rem/1.2 "Gotham-Medium"; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.banner-info > h1 > span { display: block; }
+.banner-info > h1 > span > span { color: #00b97d; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Designation Section Starts -------*/
+
+.bg-designation { overflow: hidden; position: relative; z-index: 1; }
+.shape-designation { position: absolute; right: 0; top: 0; z-index: -1; }
+.web-designer > h2,
+.graphic-designer > h2,
+.ui-ux-designer > h2 { color: #f7f7f7; font: 4rem/1.2 "Gotham-Medium"; margin-bottom: 50px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.web-designer > h2 > span,
+.graphic-designer > h2 > span,
+.ui-ux-designer > h2 > span { color: #00b97d; }
+.about-info > h3 { color: #00b97d; font: 2rem/1.2 "Gotham-Light"; margin-bottom: 30px; position: relative; z-index: 1; }
+.about-info > h3 > span { position: relative; z-index: -1; }
+.about-info > h3 > span::before { background-color: rgb(0 185 125 / 10%); bottom: 0; content: ""; display: block; height: 35%; left: -10px; position: absolute; width: 110px; z-index: -1; }
+.about-info > p { margin-bottom: 30px; }
+.about-info > p > span { color: #00b97d; font-family: "Gotham-Light"; }
+.story-cv-listing > li { margin-right: 15px; }
+.story-cv-listing > li:last-child { margin-right: 0; }
+.story-cv-listing > li > a { background-color: #00b97d; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #ffffff; display: inline-block; font: 1.6rem/1.2 "Gotham-Light"; padding: 10px 25px; text-align: center; }
+.story-cv-listing > li:nth-child(2) > a { background-color: #00bacd; }
+.story-cv-listing > li:last-child > a { background-color: #546bd9; }
+.story-cv-listing > li > a:hover,
+.story-cv-listing > li:nth-child(2) > a:hover,
+.story-cv-listing > li:last-child > a:hover { background-color: #ffffff; color: #000000; }
+
+  /*------- Designation Section Ends -------*/
+
+  /*------- Skills Section Starts -------*/
+
+.skills-heading > h3 { color: #00b97d; font: 2.4rem/1.2 "Gotham-Medium"; margin-bottom: 30px; text-transform: uppercase; }
+.skills-heading > h3 > span { display: block; }
+.box-skills { background-color: rgb(0 185 125 / 10%); margin-bottom: 30px; padding: 15px 10px; }
+.box-skills > h4 { color: #f7f7f7; font: 1.8rem/1.2 "Gotham-Light"; text-align: center; }
+
+  /*------- Skills Section Ends -------*/
+
+  /*------- Case Studies Section Starts -------*/
+
+.portfolio-image-info { margin-bottom: 30px; }
+.portfolio-image { display: block; margin-bottom: 30px; position: relative; }
+.portfolio-image::before {
+  background: -webkit-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -moz-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -ms-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -o-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  content: "";
+  height: calc(100% + 2px);
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+  z-index: -1;
+}
+.portfolio-image > img { border: 10px solid #001319; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.portfolio-info > h3 { -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.portfolio-info > h3 { color: #00b97d; font: 2rem/1.4 "Gotham-Light"; text-align: center; }
+.portfolio-image:hover > img + .portfolio-info > h3 { color: #f7f7f7; }
+
+  /*------- Case Studies Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 50px 100px 20px; }
+.footer-heading > h3 { color: #00b97d; font: 2rem/1.2 "Gotham-Book"; margin-bottom: 30px; }
+.footer-social-listing,
+.contact-listing { -webkit-align-items: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; margin-bottom: 30px; }
+.footer-social-listing > li,
+.contact-listing > li { margin-right: 25px; }
+.footer-social-listing > li:last-child,
+.contact-listing > li:last-child { margin-right: 0; }
+.contact-listing > li:last-child { padding-right: 0; }
+.footer-social-listing > li > a { color: #f7f7f7; font-size: 2rem; }
+.footer-social-listing > li > a:hover { color: #00b97d; }
+.contact-listing > li { padding-right: 20px; position: relative; }
+.contact-listing > li::after { background-color: #f7f7f7; content: ""; display: block; height: 100%; position: absolute; right: 0; top: 0; width: 1px; }
+.contact-listing > li:last-child::after { display: none; }
+.contact-listing > li > a { color: #f7f7f7; font: 1.8rem/1.2 "Gotham-Light"; }
+.contact-listing > li > a:hover { color: #00b97d; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Me Page Starts -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.banner-info-ip > h1 { color: #00b97d; font-size: 4rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Banner Image Section Starts -------*/
+
+.bg-banner-image-ap { padding: 50px 0 0; }
+.banner-image-ap > img { width: 100%; }
+
+  /*------- Banner Image Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.about-info-ap > p > img { display: inline-block; }
+.facts-listing > li { color: #f7f7f7; font: 1.8rem/1.2 "Gotham-Light"; margin-bottom: 10px; padding-left: 25px; position: relative; z-index: 1; }
+.facts-listing > li::before { background-color: #00b97d; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; content: ""; display: block; height: 10px; left: 0; position: absolute; top: 7px; width: 10px; z-index: 1; }
+
+  /*------- Information Section Ends -------*/
+
+/*------- About Me Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.portfolio-listing::before,
+.portfolio-listing::after,
+.portfolio-listing > li::before,
+.portfolio-listing > li::after { content: ""; display: table; }
+.portfolio-listing::after,
+.portfolio-listing > li::after { clear: both; }
+.portfolio-listing > li { margin-bottom: 20px; }
+.portfolio-listing > li > span:first-child { color: #00b97d; font: 1.8rem/1.2 "Gotham-Light"; }
+.portfolio-listing > li > span:last-child { color: #f7f7f7; font: 1.8rem/1.2 "Gotham-Light"; }
+.portfolio-listing > li > span > a { background-color: rgb(0 185 125 / 10%); color: #f7f7f7; display: inline-block; padding: 10px 20px; text-align: center; }
+.portfolio-listing > li > span > a:hover { background-color: #ffffff; color: #000000; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Portfolio Presentation Section Starts -------*/
+
+.figure-image-portfolio { position: relative; z-index: 1; }
+.figure-image-portfolio::before {
+  background: -webkit-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -moz-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -ms-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: -o-linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  background: linear-gradient(130deg,#00CCEC,#00E4AD 41.07%,#00DE7E 76.05%);
+  content: "";
+  height: calc(100% + 2px);
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+  z-index: -1;
+}
+.figure-image-portfolio > img { border: 10px solid #001319; margin: 0 auto 30px; width: 100%; }
+
+  /*------- Portfolio Presentation Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- GitHub Repositories Page Starts -------*/
+
+  /*------- GitHub Repositories Section Starts -------*/
+
+.github-repo-listing-grp { list-style-type: none; counter-reset: css-counter 0; }
+.github-repo-listing-grp > li { counter-increment: css-counter 1; margin-bottom: 15px; padding-left: 40px; position: relative; }
+.github-repo-listing-grp > li:last-child { margin-bottom: 0; }
+.github-repo-listing-grp > li:before { color: #ffffff; content: counter(css-counter, decimal-leading-zero) ". "; font: 1.8rem/1 "Gotham-Light"; left: 0; position: absolute; }
+.github-repo-listing-grp > li > a { color: #ffffff; font: 1.8rem/1 "Gotham-Light"; text-decoration: underline; }
+.github-repo-listing-grp > li > a:hover { color: #00b97d; }
+
+  /*------- GitHub Repositories Section Ends -------*/
+
+/*------- GitHub Repositories Page Ends -------*/
