@@ -139,6 +139,8 @@ p { color: #000000; font: 2.4rem/1.4 "Montserrat-Medium"; }
 
 /*------- Portfolio Page Starts -------*/
 
+.github-repo-panel,
+.websites-panel { margin-bottom: 30px; }
 .panel { border: 2px solid #e91e63; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; }
 .panel > .panel-header { background-color: #e91e63; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; color: #ffffff; font: 2.4rem/1.4 "Montserrat-SemiBold"; padding: 10px 20px; }
 .panel > .panel-body { padding: 20px; }
