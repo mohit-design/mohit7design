@@ -10,6 +10,14 @@ p { font-size: 1.8rem; line-height: 1.7; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Header Section Starts -------*/
+
+.header-logo { text-align: center; }
+.header-logo > a > p { margin-bottom: 10px; }
+.menu-listing { justify-content: center; }
+
+  /*------- Header Section Ends -------*/
+
   /*------- Introduction Section Starts -------*/
 
 .introduction-img { margin-bottom: 20px; }

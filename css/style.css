@@ -43,7 +43,7 @@ p { color: #000000; font: 2.4rem/1.4 "Montserrat-Medium"; }
 .header-logo > a { display: inline-block; }
 .header-logo > a > p { color: #000000; font: 2.4rem/1.4 "Montserrat-Bold"; }
 .header-logo > a > p > span { color: #e91e63; }
-.menu-listing { display: -webkit-box; display: -webkit-flex; display: flex; }
+.menu-listing { display: -webkit-box; display: -webkit-flex; display: flex; justify-content: flex-end; }
 .menu-listing > li { margin-right: 30px; }
 .menu-listing > li:last-child { margin-right: 0; }
 .menu-listing > li > a { color: #000000; font: 1.8rem/1.4 "Montserrat-Medium"; }
