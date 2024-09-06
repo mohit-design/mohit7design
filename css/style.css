@@ -155,3 +155,12 @@ p { color: #000000; font: 2.4rem/1.4 "Montserrat-Medium"; }
 .github-repo-listing > li > a:hover { color: #e91e63; text-decoration: underline; }
 
 /*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.box-certificates { margin-bottom: 30px; }
+.box-certificates > a { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; padding: 10px; }
+.box-certificates-image > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; width: 100%; }
+.box-certificates > a:hover { border-color: #cccccc; }
+
+/*------- Certificates Page Ends -------*/
