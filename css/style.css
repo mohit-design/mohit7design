@@ -101,7 +101,7 @@ p { color: #000000; font: 2.4rem/1.4 "Montserrat-Medium"; }
 .box-portfolio-heading > h4 { color: #000000; font: 2rem/1.4 "Montserrat-SemiBold"; text-align: center; }
 .box-portfolio-heading > h4 > span { color: #272727; display: block; font: 1.8rem/1.4 "Montserrat-Medium"; letter-spacing: 0.5px; margin-top: 5px; }
 .box-portfolio > a:hover,
-.box-portfolio > div:hover { border: 2px solid #cccccc; }
+.box-portfolio > div:hover { border: 2px solid #e91e63; }
 .box-portfolio > a:hover > .box-portfolio-image > img,
 .box-portfolio > div:hover > .box-portfolio-image > img { -webkit-transform: scale(1.2) rotate(7deg); -moz-transform: scale(1.2) rotate(7deg); -ms-transform: scale(1.2) rotate(7deg); -o-transform: scale(1.2) rotate(7deg); transform: scale(1.2) rotate(7deg); }
 
@@ -158,9 +158,10 @@ p { color: #000000; font: 2.4rem/1.4 "Montserrat-Medium"; }
 
 /*------- Certificates Page Starts -------*/
 
+.certificates-section-cp > .container-fluid { padding-bottom: 20px; }
 .box-certificates { margin-bottom: 30px; }
 .box-certificates > a { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; padding: 10px; }
 .box-certificates-image > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; width: 100%; }
-.box-certificates > a:hover { border-color: #cccccc; }
+.box-certificates > a:hover { border-color: #e91e63; }
 
 /*------- Certificates Page Ends -------*/
