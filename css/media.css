@@ -1,0 +1,273 @@
+@media only screen and (min-width:320px) and (max-width: 575px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 20px 15px; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.8rem; line-height: 1.7; }
+.read-view-more > a { font-size: 1.8rem; padding: 13px 26px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.header-logo { text-align: center; }
+.header-logo > a > p { margin-bottom: 10px; }
+.menu-listing { justify-content: center; }
+.menu-listing > li { margin-right: 15px; }
+.menu-listing > li > a { font-size: 1.8rem; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Introduction Section Starts -------*/
+
+.introduction-img { margin-bottom: 20px; }
+.introduction-info > h1 { font-size: 2.4rem; margin-bottom: 10px; }
+.introduction-info > h2 { font-size: 2rem; }
+.introduction-info > p { font-size: 1.8rem; margin-bottom: 20px; }
+.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
+
+  /*------- Introduction Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.profession-info { text-align: left; }
+.profession-info > p,
+.profession-info > p:nth-child(2) { margin-bottom: 20px; }
+.documents-listing { display: block; }
+.documents-listing > li { margin: 0 0 20px 0; }
+.documents-listing > li:last-child { margin: 0; }
+.documents-listing > li > a { font-size: 1.8rem; padding: 13px 26px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.box-portfolio { margin-bottom: 20px; }
+.box-portfolio-heading > h3 { font-size: 2rem; }
+.box-portfolio-heading > h3 > span { font-size: 1.8rem; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.contact-info > p { margin-bottom: 25px; }
+.contact-listing { display: block; }
+.contact-listing > li { margin: 0 0 20px 0; }
+.contact-listing > li:last-child { margin: 0; }
+.contact-listing > li > a { font-size: 1.8rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+.box-introduction-video,
+.profession-info-ap > p { margin-bottom: 20px; }
+
+/*------- About Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+.github-repo-panel { margin-bottom: 20px; }
+.panel > .panel-header { font-size: 2rem; }
+.github-repo-listing > li > a { word-break: break-all; }
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.bg-certificates { padding-bottom: 0; }
+.box-certificates { margin-bottom: 20px; }
+
+/*------- Certificates Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 20px 15px; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.8rem; line-height: 1.7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.header-logo { text-align: center; }
+.header-logo > a > p { margin-bottom: 10px; }
+.menu-listing { justify-content: center; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Introduction Section Starts -------*/
+
+.introduction-img { margin-bottom: 20px; }
+.introduction-info > h1 { font-size: 2.4rem; margin-bottom: 20px; }
+.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
+
+  /*------- Introduction Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.profession-info { text-align: left; }
+.profession-info > p,
+.profession-info > p:nth-child(2) { margin-bottom: 20px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.box-portfolio { margin-bottom: 20px; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.contact-info > p { margin-bottom: 25px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+.box-introduction-video,
+.profession-info-ap > p { margin-bottom: 20px; }
+
+/*------- About Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+.github-repo-panel { margin-bottom: 20px; }
+.panel > .panel-header { font-size: 2rem; }
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.bg-certificates { padding-bottom: 0; }
+
+/*------- Certificates Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.8rem; line-height: 1.7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Introduction Section Starts -------*/
+
+.introduction-info > h1 { font-size: 2.4rem; margin-bottom: 20px; }
+.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
+
+  /*------- Introduction Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.profession-info { text-align: left; }
+.profession-info > p,
+.profession-info > p:nth-child(2) { margin-bottom: 20px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.contact-info > p { margin-bottom: 25px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+.box-introduction-video,
+.profession-info-ap > p { margin-bottom: 20px; }
+
+/*------- About Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+.github-repo-panel { margin-bottom: 20px; }
+.panel > .panel-header { font-size: 2rem; }
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.bg-certificates { padding-bottom: 0; }
+
+/*------- Certificates Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.8rem; line-height: 1.7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Introduction Section Starts -------*/
+
+.introduction-info > h1 { font-size: 2.4rem; margin-bottom: 20px; }
+.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
+
+  /*------- Introduction Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.profession-info { text-align: left; }
+.profession-info > p,
+.profession-info > p:nth-child(2) { margin-bottom: 20px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.contact-info > p { margin-bottom: 25px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+.box-introduction-video,
+.profession-info-ap > p { margin-bottom: 20px; }
+
+/*------- About Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+.panel > .panel-header { font-size: 2rem; }
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.bg-certificates { padding-bottom: 0; }
+
+/*------- Certificates Page Ends -------*/
+
+}

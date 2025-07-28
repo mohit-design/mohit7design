@@ -1,0 +1,171 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Outfit-Light"; src: url("../fonts/Outfit-Light.ttf"); }
+@font-face { font-family: "Outfit-Regular"; src: url("../fonts/Outfit-Regular.ttf"); }
+@font-face { font-family: "Outfit-Medium"; src: url("../fonts/Outfit-Medium.ttf"); }
+@font-face { font-family: "Outfit-SemiBold"; src: url("../fonts/Outfit-SemiBold.ttf"); }
+@font-face { font-family: "Outfit-Bold"; src: url("../fonts/Outfit-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { font-size: 10px; }
+h1,
+h2,
+h4,
+p,
+ul { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 50px 15px; }
+.row { margin-left: -15px; margin-right: -15px; }
+.row > [class^=col] { padding-left: 15px; padding-right: 15px; }
+.section-heading > h2 { color: #1E1E1E; font: 3rem/1.4 "Outfit-Bold"; margin-bottom: 30px; }
+.section-heading > h2 > span { color: #e91e63; }
+p { color: #1E1E1E; font: 2.4rem/1.4 "Outfit-Regular"; }
+.read-view-more > a { background-color: #e91e63; border: 2px solid #e91e63; -webkit-border-radius: 28px; -moz-border-radius: 28px; -ms-border-radius: 28px; -o-border-radius: 28px; border-radius: 28px; color: #ffffff; display: inline-block; font: 2rem/1 "Outfit-Medium"; padding: 16px 32px; text-align: center; }
+.read-view-more > a:hover { background-color: #ffffff; color: #e91e63; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Header Section Starts -------*/
+
+.bg-header { background-color: #f7f7f7; border-bottom: 2px solid #cccccc; padding: 15px; }
+.header-logo > a { display: inline-block; }
+.header-logo > a > p { color: #1E1E1E; font: 2.4rem/1.4 "Outfit-Bold"; }
+.header-logo > a > p > span { color: #e91e63; }
+.menu-listing { display: -webkit-box; display: -webkit-flex; display: flex; justify-content: flex-end; }
+.menu-listing > li { margin-right: 30px; }
+.menu-listing > li:last-child { margin-right: 0; }
+.menu-listing > li > a { color: #1E1E1E; font: 2rem/1.4 "Outfit-Medium"; }
+.menu-listing > li.active > a,
+.menu-listing > li > a:hover { color: #e91e63; }
+
+  /*------- Header Section Ends -------*/
+
+  /*------- Introduction Section Starts -------*/
+
+.introduction-img { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 10px; }
+.introduction-img > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; width: 100%; }
+.introduction-info > h1 { color: #1E1E1E; font: 3.6rem/1.4 "Outfit-Bold"; margin-bottom: 15px; }
+.introduction-info > h1 > span { color: #e91e63; }
+.introduction-info > h2 { color: #1E1E1E; font: 2.4rem/1.4 "Outfit-SemiBold"; margin-bottom: 15px; text-transform: capitalize; }
+.introduction-info > p { color: #1E1E1E; font: 2.2rem/1.4 "Outfit-Regular"; margin-bottom: 30px; }
+.social-listing { display: -webkit-box; display: -webkit-flex; display: flex; }
+.social-listing > li { margin-right: 15px; }
+.social-listing > li:last-child { margin-right: 0; }
+.social-listing > li > a { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-sizing: content-box; color: #ffffff; display: block; font-size: 2.4rem; height: 52px; line-height: 52px; text-align: center; width: 52px; }
+.social-listing > li:first-child > a { background-color: #0077b5; border: 2px solid #0077b5; }
+.social-listing > li:nth-child(2) > a { background-color: #e91e63; border: 2px solid #e91e63; }
+.social-listing > li:nth-child(3) > a { background-color: #795548; border: 2px solid #795548; }
+.social-listing > li > a:hover { background-color: #ffffff; }
+.social-listing > li:first-child > a:hover { color: #0077b5; }
+.social-listing > li:nth-child(2) > a:hover { color: #e91e63; }
+.social-listing > li:nth-child(3) > a:hover { color: #795548; }
+
+  /*------- Introduction Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.bg-information { background-color: #f7f7f7; }
+.profession-info { text-align: center; }
+.profession-info > p { margin-bottom: 30px; }
+.profession-info > p:nth-child(2) { margin-bottom: 40px; }
+.profession-info > p > span { color: #e91e63; font-family: "Outfit-SemiBold"; }
+.documents-listing { display: -webkit-box; display: -webkit-flex; display: flex; }
+.documents-listing > li { margin-right: 15px; }
+.documents-listing > li > a { -webkit-border-radius: 28px; -moz-border-radius: 28px; -ms-border-radius: 28px; -o-border-radius: 28px; border-radius: 28px; color: #ffffff; display: block; font: 2rem/1 "Outfit-Medium"; padding: 16px 32px; text-align: center; }
+.documents-listing > li:first-child > a { background-color: #3f51b5; border: 2px solid #3f51b5; }
+.documents-listing > li:nth-child(2) > a { background-color: #009688; border: 2px solid #009688; }
+.documents-listing > li > a:hover { background-color: #f7f7f7; }
+.documents-listing > li:first-child > a:hover { color: #3f51b5; }
+.documents-listing > li:nth-child(2) > a:hover { color: #009688; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.box-portfolio { margin-bottom: 30px; }
+.box-portfolio > a,
+.box-portfolio > div { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; padding: 10px; }
+.box-portfolio-image { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; margin-bottom: 10px; overflow: hidden; position: relative; }
+.box-portfolio-image > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.box-portfolio-heading > h3 { color: #1E1E1E; font: 2.4rem/1.4 "Outfit-SemiBold"; text-align: center; }
+.box-portfolio-heading > h3 > span { color: #1E1E1E; display: block; font: 2rem/1.4 "Outfit-Regular"; letter-spacing: 0.5px; margin-top: 5px; }
+.btn-visit-website { margin-top: 10px; }
+.box-portfolio > a:hover,
+.box-portfolio > div:hover { border: 2px solid #e91e63; }
+.box-portfolio > a:hover > .box-portfolio-image > img,
+.box-portfolio > div:hover > .box-portfolio-image > img { -webkit-transform: scale(1.2) rotate(7deg); -moz-transform: scale(1.2) rotate(7deg); -ms-transform: scale(1.2) rotate(7deg); -o-transform: scale(1.2) rotate(7deg); transform: scale(1.2) rotate(7deg); }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { background-color: #f7f7f7; border-top: 2px solid #cccccc; }
+.contact-info > p { font-family: "Outfit-Medium"; margin-bottom: 35px; }
+.contact-listing { display: -webkit-box; display: -webkit-flex; display: flex; }
+.contact-listing > li { margin-right: 30px; }
+.contact-listing > li:last-child { margin-right: 0; }
+.contact-listing > li > a { color: #1E1E1E; font: 2.2rem/1.4 "Outfit-Medium"; }
+.contact-listing > li > a > i { -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font-size: 2rem; margin-right: 5px; padding: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.contact-listing > li:first-child > a { color: #3f51b5; }
+.contact-listing > li:last-child > a { color: #009688; }
+.contact-listing > li:first-child > a > i { background-color: #3f51b5; border: 2px solid #3f51b5; }
+.contact-listing > li:last-child > a > i { background-color: #009688; border: 2px solid #009688; }
+.contact-listing > li:first-child > a:hover { color: #3f51b5; }
+.contact-listing > li:last-child > a:hover { color: #009688; }
+.contact-listing > li:first-child > a:hover > i { background-color: transparent; color: #3f51b5; }
+.contact-listing > li:last-child > a:hover > i { background-color: transparent; color: #009688; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+.box-introduction-video { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; margin-bottom: 30px; padding: 10px; }
+.introduction-video {  -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; width: 100%; }
+.profession-info-ap > p { margin-bottom: 30px; }
+.profession-info-ap > p:last-child { margin-bottom: 0; }
+.profession-info-ap > p > a,
+.profession-info-ap > p > span { color: #e91e63; font-family: "Outfit-SemiBold"; }
+.profession-info-ap > p > a:hover { text-decoration: underline; }
+
+/*------- About Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+.github-repo-panel,
+.websites-panel,
+.website-designs-panel { margin-bottom: 30px; }
+.panel { border: 2px solid #e91e63; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; }
+.panel > .panel-header { background-color: #e91e63; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; color: #ffffff; font: 2.4rem/1.4 "Outfit-SemiBold"; padding: 10px 20px; }
+.panel > .panel-body { padding: 20px; }
+.designs-panel >.panel-body { padding: 20px 20px 0; }
+.github-repo-listing > li { margin-bottom: 10px; }
+.github-repo-listing > li:last-child { margin-bottom: 0; }
+.github-repo-listing > li > a { color: #1E1E1E; font: 2rem/1.4 "Outfit-Regular"; text-decoration: underline; }
+.github-repo-listing > li > a:hover { color: #e91e63; text-decoration: underline; }
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Certificates Page Starts -------*/
+
+.bg-certificates { padding-bottom: 20px; }
+.box-certificates { margin-bottom: 30px; }
+.box-certificates > a { border: 2px solid #eeeeee; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; padding: 10px; }
+.box-certificates-image > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; width: 100%; }
+.box-certificates > a:hover { border-color: #e91e63; }
+
+/*------- Certificates Page Ends -------*/
