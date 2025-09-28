@@ -174,7 +174,9 @@ p { font-size: 1.8rem; line-height: 1.7; }
   /*------- Introduction Section Starts -------*/
 
 .introduction-info > h1 { font-size: 2.4rem; margin-bottom: 20px; }
-.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
+.introduction-info > h2 { font-size: 2.2rem; }
+.introduction-info > p { font-size: 1.8rem; }
+.social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px }
 
   /*------- Introduction Section Ends -------*/
 
@@ -230,7 +232,8 @@ p { font-size: 1.8rem; line-height: 1.7; }
 
   /*------- Introduction Section Starts -------*/
 
-.introduction-info > h1 { font-size: 2.4rem; margin-bottom: 20px; }
+.introduction-info > h1 { font-size: 3rem; margin-bottom: 20px; }
+.introduction-info > p { font-size: 2rem; }
 .social-listing > li > a { font-size: 2rem; height: 40px; line-height: 40px; width: 40px;   }
 
   /*------- Introduction Section Ends -------*/
